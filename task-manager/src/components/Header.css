@@ -1,0 +1,45 @@
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center; /* Center children horizontally */
+    align-items: center;    
+}
+
+h1{
+    margin: 0;
+    justify-self: start;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    list-style-type: none;
+    text-wrap: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    justify-self: center;
+    
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    /* justify-self: left; */
+    justify-self: center;
+    width: 100%;
+}
+
+.profile{
+    justify-self: right;
+}
